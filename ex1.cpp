@@ -1,10 +1,15 @@
 /*
-Exercício 1  - Receber através de digitação uma mensagem. 
+ExercÃ­cio 1  - Receber atravÃ©s de digitaÃ§Ã£o uma mensagem. 
 
 Apresentar esta mensagem, centralizada, na linha 5 da tela.
 
-À partir daí, cada letra desta mensagem deverá "cair", da linha 5 até a linha 20, simulando uma "cascata". Ao final, a mensagem deverá estar toda apresentada na linha 20.
+Ã€ partir daÃ­, cada letra desta mensagem deverÃ¡ "cair", da linha 5 atÃ© a linha 20, simulando uma "cascata". Ao final, a mensagem deverÃ¡ estar toda apresentada na linha 20.
+
+Alunos:
+Lucas Gomes dos Santso
+Alisson Vieira.
 */
+
 
 #include <iostream>
 #include <locale.h>
@@ -22,7 +27,7 @@ int main(int argc, char** argv)
 {
     setlocale(LC_ALL, "");
 
-    // Obtém a mensagem do usuário
+    // ObtÃ©m a mensagem do usuÃ¡rio
     string mensagem;
     bool mostrar = true;
     cout << "Digite uma mensagem: ";
